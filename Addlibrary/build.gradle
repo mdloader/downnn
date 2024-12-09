@@ -39,11 +39,11 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-//                from components.java // Use the correct component name
+        //         from components.java // Use the correct component name
 
                 groupId = 'com.github.mdloader'
                 artifactId = 'lib-download'
-                version = '1.0'
+                version = '1.0.1'
             }
         }
     }
